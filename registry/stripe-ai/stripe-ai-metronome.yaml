@@ -1,0 +1,21 @@
+id: stripe-ai-metronome
+display_name: metronome
+description: "Guides Metronome usage-based billing integration decisions \u2014 event\
+  \ ingestion (single and batch, idempotency, billable metrics), contract design (rate\
+  \ cards, overrides, dimensional pricing, products), invoicing lifecycle (grace periods,\
+  \ finalization, Stripe sync), credit and commit management (prepaid, postpaid, thresholds,\
+  \ auto-recharge), and Stripe integration (arrears invoicing, tax providers, line\
+  \ item limits). Use when building, modifying, or reviewing any Metronome integration\
+  \ \u2014 including ingesting usage events, creating contracts or rate cards, managing\
+  \ credits and commits, configuring invoicing, or syncing invoices with Stripe Billing."
+authors:
+- stripe
+is_official: true
+tags: []
+category: none
+source:
+  path: /skills/metronome
+  repo: stripe/ai
+metadata:
+  stars: 1827
+added_at: '2026-09-20'
