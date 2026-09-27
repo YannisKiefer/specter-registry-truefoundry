@@ -1,0 +1,18 @@
+id: google-skills-bigquery-slot-cost-optimizer
+display_name: bigquery-slot-cost-optimizer
+description: Analyzes Google Cloud BigQuery slot consumption, query costs, and execution
+  bottlenecks using INFORMATION_SCHEMA. Use when diagnosing slow BigQuery queries,
+  slot starvation, high on-demand query costs, unpartitioned table scans, or join
+  performance issues. Don't use for generic BigQuery administration (use bigquery-basics),
+  BigQuery ML (use bigquery-ai-ml), or DataFrame operations (use bigquery-bigframes).
+authors:
+- google
+is_official: true
+tags: []
+category: none
+source:
+  path: /skills/cloud/bigquery-slot-cost-optimizer
+  repo: google/skills
+metadata:
+  stars: 20408
+added_at: '2026-09-27'
