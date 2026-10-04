@@ -1,0 +1,20 @@
+id: NVIDIA-skills-tao-finetune-nv-tesseract-ad-diffusion
+display_name: tao-finetune-nv-tesseract-ad-diffusion
+description: "NV-Tesseract AD Diffusion \u2014 diffusion-based anomaly detection and\
+  \ fine-tuning for multivariate time series. Use when the user asks to \"fine-tune\
+  \ NV-Tesseract\", \"run AD diffusion inference\", \"detect anomalies with diffusion\"\
+  , \"time series anomaly detection\", \"finetune ad-diffusion\", \"use perform_anomaly_analysis_with_diffusion\"\
+  , \"automl ad-diffusion\", \"hyperparameter search ad-diffusion\", \"hyperparameter\
+  \ optimization\" or mentions \"curriculum_medium.yaml\", \"final_model.pth\", \"\
+  nv-tesseract-ad-diffusion\", \"ad_diffusion\", or \"TSDiffuser_Generic\"."
+authors:
+- NVIDIA
+is_official: true
+tags: []
+category: none
+source:
+  path: /skills/tao-finetune-nv-tesseract-ad-diffusion
+  repo: NVIDIA/skills
+metadata:
+  stars: 3514
+added_at: '2026-10-04'

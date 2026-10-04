@@ -1,0 +1,19 @@
+id: Xquik-dev-x-twitter-scraper-x-twitter-scraper
+display_name: x-twitter-scraper
+description: 'Use Xquik to fetch X (Twitter) data or act through a connected account:
+  search, profiles, followers, replies, threads, timelines, media downloads, bulk
+  exports, trends, monitors, signed webhooks, draws, posts, likes, follows, and DMs.
+  Also use for Xquik MCP setup, pricing, and X API comparisons. Skip data from other
+  social networks, official X API or official X widget implementation, and content
+  drafting or analysis without an API task. Not affiliated with X Corp.'
+authors:
+- Xquik-dev
+is_official: false
+tags: []
+category: none
+source:
+  path: /skills/x-twitter-scraper
+  repo: Xquik-dev/x-twitter-scraper
+metadata:
+  stars: 210
+added_at: '2026-10-04'
