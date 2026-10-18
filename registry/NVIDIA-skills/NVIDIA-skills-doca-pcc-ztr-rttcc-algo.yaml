@@ -1,0 +1,25 @@
+id: NVIDIA-skills-doca-pcc-ztr-rttcc-algo
+display_name: doca-pcc-ztr-rttcc-algo
+description: 'DOCA-shipped Zero-Touch RoCE RTT congestion control (ZTR RTTCC) reference
+  algorithm on a BlueField-3 DPA: deploy, tune and evaluate doca_pcc_dev_ztr_rttcc_algo
+  through the shipped DOCA PCC sample. Trigger on "my RoCE-v2 flows aren''t being
+  throttled", "PCC sample isn''t dispatching to my algo", "set-params returns fail",
+  "algorithm loaded but counters are flat", "how do I pick the multipath PCC variant",
+  or "do I need a custom CC algorithm on BF3", even without naming ZTR RTTCC. Your
+  own algorithm through the host library belongs to doca-pcc; the doca_spcx_cc command
+  line to doca-spcx-cc. Covers picking a variant (vanilla / PM / RX-rate / multipath
+  / window-probeless) at DPACC build time, tuning host-set parameters, and DOCA_PCC_DEV_STATUS_FAIL
+  from the algorithm. Refuse and route elsewhere for writing a custom PCC algorithm
+  from scratch, read-only PCC counter inspection, or firmware-only pre-Programmable
+  PCC.'
+authors:
+- NVIDIA
+is_official: true
+tags: []
+category: none
+source:
+  path: /skills/doca-pcc-ztr-rttcc-algo
+  repo: NVIDIA/skills
+metadata:
+  stars: 3632
+added_at: '2026-10-18'

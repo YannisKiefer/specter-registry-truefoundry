@@ -1,0 +1,18 @@
+id: Leonxlnx-taste-skill-taste-skill-v2-experimental
+display_name: design-taste-frontend-v2-experimental
+description: Old v2 (experimental) of taste-skill, the single-file dial-driven version,
+  preserved for projects depending on its exact behavior. The current default is `design-taste-frontend`
+  (v2). Use this install name only if you need the earlier behavior. Anti-slop frontend
+  rules for landing pages, portfolios, and redesigns, with real design systems when
+  applicable, audit-first redesigns and a strict pre-flight check.
+authors:
+- Leonxlnx
+is_official: false
+tags: []
+category: none
+source:
+  path: /skills/taste-skill-v2-experimental
+  repo: Leonxlnx/taste-skill
+metadata:
+  stars: 98453
+added_at: '2026-10-18'
