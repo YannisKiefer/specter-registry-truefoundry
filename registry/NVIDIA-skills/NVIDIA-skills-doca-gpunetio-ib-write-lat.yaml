@@ -1,0 +1,22 @@
+id: NVIDIA-skills-doca-gpunetio-ib-write-lat
+display_name: doca-gpunetio-ib-write-lat
+description: "Use this skill when the user characterizes RDMA WRITE round-trip time\
+  \ posted from a CUDA kernel via GPUNetIO \u2014 compiling `gpunetio_ib_write_lat`\
+  \ under `doca/tools/`, verifying GPU\u2013NIC affinity, and interpreting the half-iteration\
+  \ / full-iteration / nanosecond columns for median / p99 / tail-jitter analysis\
+  \ of a real-time control loop. Also load it for implied asks like \"p99 WRITE time\
+  \ on H100 + ConnectX\", \"tail delay versus batching\", or \"device-originated versus\
+  \ upstream ib_write_lat\". Refuse and route to the proper owner for throughput runs\
+  \ (doca-gpunetio-ib-write-bw), the GPI channel API (doca-gpi), GPUNetIO API work\
+  \ (doca-gpunetio), or SDK setup."
+authors:
+- NVIDIA
+is_official: true
+tags: []
+category: none
+source:
+  path: /skills/doca-gpunetio-ib-write-lat
+  repo: NVIDIA/skills
+metadata:
+  stars: 3719
+added_at: '2026-10-25'

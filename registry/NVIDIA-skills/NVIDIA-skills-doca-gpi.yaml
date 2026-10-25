@@ -1,0 +1,22 @@
+id: NVIDIA-skills-doca-gpi
+display_name: doca-gpi
+description: "Use this skill for DOCA GPI work \u2014 configuring a GPU Packet Initiator\
+  \ so device code issues RDMA operations straight out of GPU-resident buffers via\
+  \ doca_gpi objects: domain creation and channel limits, attribute objects, the doca_gpu_gpi_channel*\
+  \ handoff consumed inside device code, and DOCA_ERROR_* triage on doca_gpi_* entry\
+  \ points such as doca_gpi_gpu_channel_get. Also load it for implied asks like \"\
+  how many channels fit in a GPI domain\" or \"device code issuing one-sided RDMA\"\
+  . Refuse and route to the proper owner for Send/Receive semantics (doca-gpunetio),\
+  \ host-managed QP lifecycle (doca-rdma), Arm-side origination (doca-rdmi), or generic\
+  \ CUDA tutelage."
+authors:
+- NVIDIA
+is_official: true
+tags: []
+category: none
+source:
+  path: /skills/doca-gpi
+  repo: NVIDIA/skills
+metadata:
+  stars: 3719
+added_at: '2026-10-25'
